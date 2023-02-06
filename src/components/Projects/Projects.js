@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import panoraven from "../../Assets/Projects/panoraven.png";
+import affiliate from "../../Assets/Projects/affiliate.png";
+import marketplace from "../../Assets/Projects/nft-marketplace.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import neatleaf from "../../Assets/Projects/neatleaf.png";
+import ecommerce from "../../Assets/Projects/ecommerce.png";
 
 function Projects() {
   return (
@@ -27,63 +27,62 @@ function Projects() {
               isBlog={false}
               title="Chatify"
               description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
+              ghLink="https://github.com/marlborocool/react-firebase-chatting-app"
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ecommerce}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="E-Commerce"
+              description="This e-commerce web site was built with React, React Router, Redux and Material-UI. The primary motive was to try out and learn both Redux and Material-UI. I also thought an e-commerce project would be an interesting and educational undertaking in general."
+              ghLink="https://github.com/marlborocool/react-e-commerce"
+              demoLink="https://e-commerce-mr.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={marketplace}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="NEXUS Land Sale"
+              description="Land Sale was built by Vue.js, Nuxt.js, Vite, Tailwind CSS and TypeScript. Users can enjoy a place they call home and earn from palyer traffic. Enroll players into their hometown so they can collect taxes on their earnings and let them manage your facilities."
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://marketplace.affyn.com"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={panoraven}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Panoraven"
+              description="This website was built by Angular, Nest.js, TypeScript and Material UI. Panoraven is for creating, sharing the virtual tours 360 in a breeze."
+              // ghLink="https://github.com/marlborocool/the-impact-suite"
+              demoLink="https://panoraven.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={neatleaf}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Neatleaf Dashboard"
+              description="Used React, TypeScript, MUI, styled-components, Hasura, PostgreSQL, GraphQL and AWS Cognito, AWS Lambda, AWS Amplify for neatleaf company dashboard."
+              ghLink="https://github.com/marlborocool/neatleaf-dashboard"
+              demoLink="https://dashboard.neatleaf.com/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={affiliate}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              title="Affiliate Dashboard"
+              description="This software was built by React, Node.js, PHP, Laravel, MySQL, TypeScript, Prisma-ORM, TRPC, Tremor and Chakra UI."
+              ghLink="https://github.com/marlborocool/AFF/tree/master/aff"
               // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
             />
           </Col>

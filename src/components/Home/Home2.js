@@ -23,7 +23,7 @@ function Home2() {
               <br />
               <br />I am fluent in programming languages like
               <i>
-                <b className="purple"> Javascript, PHP and Python. </b>
+                <b className="purple"> Javascript, PHP, Python, Solidity, Rust and C#. </b>
               </i>
               <br />
               <br />
@@ -38,7 +38,7 @@ function Home2() {
               <br />
               <br />
               Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Nest.js, Laravel, Django</b> and
+              with <b className="purple">Nest.js, Laravel, Django, ASP.NET</b> and
               <i>
                 <b className="purple">
                   {" "}
